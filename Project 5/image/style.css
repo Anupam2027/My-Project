@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Akatab', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+nav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+nav div ul{
+    display: flex;
+    align-items:center ;
+    gap: 40px;
+    font-weight: 300;
+    color: whitesmoke;
+    
+    
+   
+}
+nav div ul li a:hover{
+    font-size:30px;
+    color: #a21c8e;
+    text-decoration:underline;
+}
+nav div ul li a{
+    list-style: none;
+    cursor: pointer;
+    height: fit-content;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 19px;
+    
+   
+}
+ 
+nav div  button{
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: #a21c8e;
+}
+
+ .but {
+    height: 40px;
+    margin-left: 20px; 
+} 
+.but  button:hover{
+    font-weight: 800;
+    font-size: 15px;
+    background-color: whitesmoke;
+    color: #a21c8e;
+    border: 2px solid #a21c8e;
+   
+} 
+.main-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    margin: 120px;
+    text-align: center;
+}
+.left-section h1{
+    font-weight: 799;
+    font-size: 80px;
+    word-spacing:-7px;
+    color: white;
+}
+.left-section p{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+.right-section button{
+    margin: 60px;
+    padding: 15px 25px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 9px;
+    background-color: #a32296;
+    color: white;
+    border: #a21c8e;
+}
+
+.right-section button:hover{
+    background-color: white;
+    color: #a21c8e;
+    border: 2px solid #a21c8e;
+    font-size: 25px;
+    font-weight:750;
+}
+
