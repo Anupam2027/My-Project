@@ -9,11 +9,6 @@ body{
     background-color: #000000;
     height: 100%;
     width: 100%;
-    min-height: 100vh;
-
-
-
-
 }
   nav {
     display: flex;
@@ -300,8 +295,7 @@ nav div ul li:hover{
     line-height: 40px;
     padding-bottom: 100%;
     margin-bottom: 100vh;
-
-    
+    margin-top: auto;
 }
 
 
@@ -363,3 +357,4 @@ nav div ul li:hover{
     margin-bottom: 160px;
     height: 40px;
 }
+
